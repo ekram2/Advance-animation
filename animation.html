@@ -10,16 +10,17 @@
             0%{
                 background-color: rgb(233, 249, 3);
                 left: 0;
-                right: 0;
+                top: -25px;
                 transform: scale(0.5);
             }
             25%{
                 top: 225px;
                 transform: scale(0.5);
+                background-color: red;
                 
             }
             50%{
-                top: 0;
+                top: -25px;
                 background-color: yellow;
             }
             75%{
@@ -30,7 +31,7 @@
             }
             100%{
                 background-color: magenta;
-                left: 800px;
+                left: 700px;
             }
             
         }
@@ -45,14 +46,13 @@
             border-radius: 50%;
             position: relative;
             background-color: lightgreen;
-            animation: sliding 2s ease-in-out 0.5s infinite alternate 
-            ;
+            animation: sliding 7s ease-in-out 0.5s infinite alternate ;
             animation-play-state: running;
 }
     </style>
 </head>
 <body>
-    <h1>Lets explore animation</h1>
+    <h1>Lets Explore Animation</h1>
     <div class="stage">
         <div class="ball"></div>
     </div>
